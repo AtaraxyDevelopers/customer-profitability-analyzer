@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "project": "customer-profitability-analyzer",
+  "settings": {
+    "currency": "USD",
+    "targetMargin": 25,
+    "period": "November 2026"
+  },
+  "records": [
+    {
+      "id": "client-1",
+      "name": "Maple Studio",
+      "revenue": 5000,
+      "hours": 80,
+      "hourlyCost": 30,
+      "directCosts": 500,
+      "overhead": 300
+    },
+    {
+      "id": "client-2",
+      "name": "River Foods",
+      "revenue": 2000,
+      "hours": 60,
+      "hourlyCost": 30,
+      "directCosts": 300,
+      "overhead": 200
+    }
+  ]
+}
